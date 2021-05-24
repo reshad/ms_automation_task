@@ -8,4 +8,3 @@ Test_CC_CVC = 222
 Test_Zip_Code = 10038
 Test_Address = "123 William Street"
 Test_Floor = "Floor 22"
-Test_Date = "06/12/2021"
