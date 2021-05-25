@@ -47,13 +47,13 @@ class TestAppointmentBooking(unittest.TestCase):
 		time.sleep(10)
 
 		# Asserts the appointment has a Date.
-		# This can be improved when we know specifically we want to check on the appointment date
+		# This can be improved when we know specifically what we want to check on the appointment date
 		appointment_date = self.driver.find_element_by_class_name('dashboard-appointment-date')
 		print(appointment_date.text) # this is for debuging purpose
 		assert appointment_date.is_displayed()
 
 		# Asserts a new Navigation State, 
-		# This can be improved when we know specifically we want to check from the navigation state
+		# This can be improved when we know specifically what we want to check from the navigation state
 		print(self.driver.current_url) # this is for debuging purpose
 		assert BASE_URL in self.driver.current_url
 
